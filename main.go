@@ -9,6 +9,7 @@ import (
 	"sort"
 
 	"github.com/gorilla/pat"
+	"github.com/gorilla/sessions"
 	"github.com/joho/godotenv"
 	"github.com/markbates/goth"
 	"github.com/markbates/goth/gothic"
@@ -21,15 +22,15 @@ type ProviderIndex struct {
 }
 
 func main() {
-	// key := "SESSION_SECRET" // Replace with your SESSION_SECRET or similar
-	// maxAge := 86400 * 30    // 30 days
-	// isProd := false         // Set to true when serving over https
-	// store := sessions.NewFilesystemStore("store", []byte(key))
-	// store.MaxAge(maxAge)
-	// store.Options.HttpOnly = true // HttpOnly should always be enabled
-	// store.Options.Secure = isProd
+	key := "SESSION_SECRET" // Replace with your SESSION_SECRET or similar
+	maxAge := 86400 * 30    // 30 days
+	isProd := false         // Set to true when serving over https
+	store := sessions.NewFilesystemStore("store", []byte(key))
+	store.MaxAge(maxAge)
+	store.Options.HttpOnly = true // HttpOnly should always be enabled
+	store.Options.Secure = isProd
 
-	// gothic.Store = store
+	gothic.Store = store
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")

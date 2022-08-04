@@ -30,9 +30,9 @@ func init() {
 func main() {
 
 	goth.UseProviders(
-		twitterv2.New(os.Getenv("TWITTER_KEY"), os.Getenv("TWITTER_SECRET"), "http://127.0.0.1:3000/auth/twitterv2/callback"),
+		//twitterv2.New(os.Getenv("TWITTER_KEY"), os.Getenv("TWITTER_SECRET"), "http://127.0.0.1:3000/auth/twitterv2/callback"),
 		// If you'd like to use authenticate instead of authorize in Twitter provider, use this instead.
-		// twitter.NewAuthenticate(os.Getenv("TWITTER_KEY"), os.Getenv("TWITTER_SECRET"), "http://localhost:3000/auth/twitter/callback"),
+		twitterv2.NewAuthenticate(os.Getenv("TWITTER_KEY"), os.Getenv("TWITTER_SECRET"), "http://127.0.0.1:3000/auth/twitterv2/callback"),
 	)
 
 	m := make(map[string]string)

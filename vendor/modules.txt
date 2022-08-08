@@ -2,6 +2,7 @@
 ## explicit; go 1.15
 github.com/daubit/goth
 github.com/daubit/goth/gothic
+github.com/daubit/goth/providers/discord
 github.com/daubit/goth/providers/twitterv2
 # github.com/golang/protobuf v1.4.2
 ## explicit; go 1.9

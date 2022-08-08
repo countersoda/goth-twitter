@@ -40,6 +40,10 @@ github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5P
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
+github.com/daubit/goth v0.0.0-20220804095846-617b035a1469 h1:V8T04l2tcI2fDDRmR+pIQt/tBr3EGdUu1Q9e19Wk+0I=
+github.com/daubit/goth v0.0.0-20220804095846-617b035a1469/go.mod h1:X6xdNgpapSENS0O35iTBBcMHoJDQDfI9bJl+APCkYMc=
+github.com/daubit/goth v0.0.0-20220808135250-ff92bb1a9107 h1:3+jd0aa6lRhUDMdAP5+aZDX5mSkLkQZybPlgJsSllFs=
+github.com/daubit/goth v0.0.0-20220808135250-ff92bb1a9107/go.mod h1:qcrXB/HaM/ap0LTQD7LLHG+OLMT0fUxSFm76m4rm4qg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/decred/dcrd/crypto/blake256 v1.0.0/go.mod h1:sQl2p6Y26YV+ZOcSTP6thNdn47hh8kt6rqSlvmrXFAc=

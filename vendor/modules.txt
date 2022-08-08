@@ -1,3 +1,8 @@
+# github.com/daubit/goth v0.0.0-20220808135250-ff92bb1a9107
+## explicit; go 1.15
+github.com/daubit/goth
+github.com/daubit/goth/gothic
+github.com/daubit/goth/providers/twitterv2
 # github.com/golang/protobuf v1.4.2
 ## explicit; go 1.9
 github.com/golang/protobuf/proto
@@ -19,11 +24,6 @@ github.com/gorilla/sessions
 # github.com/joho/godotenv v1.4.0
 ## explicit; go 1.12
 github.com/joho/godotenv
-# github.com/markbates/goth v1.73.0
-## explicit; go 1.15
-github.com/markbates/goth
-github.com/markbates/goth/gothic
-github.com/markbates/goth/providers/twitterv2
 # github.com/mrjones/oauth v0.0.0-20180629183705-f4e24b6d100c
 ## explicit
 github.com/mrjones/oauth

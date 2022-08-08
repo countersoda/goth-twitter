@@ -5,10 +5,10 @@ go 1.18
 require (
 	github.com/gorilla/pat v1.0.1
 	github.com/joho/godotenv v1.4.0
-	github.com/markbates/goth v1.73.0
 )
 
 require (
+	github.com/daubit/goth v0.0.0-20220808135250-ff92bb1a9107 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.6.2 // indirect

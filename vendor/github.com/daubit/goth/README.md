@@ -1,4 +1,4 @@
-# Goth: Multi-Provider Authentication for Go [![GoDoc](https://godoc.org/github.com/markbates/goth?status.svg)](https://godoc.org/github.com/markbates/goth) [![Build Status](https://github.com/markbates/goth/workflows/ci/badge.svg)](https://github.com/markbates/goth/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/markbates/goth)](https://goreportcard.com/report/github.com/markbates/goth)
+# Goth: Multi-Provider Authentication for Go [![GoDoc](https://godoc.org/github.com/daubit/goth?status.svg)](https://godoc.org/github.com/daubit/goth) [![Build Status](https://github.com/daubit/goth/workflows/ci/badge.svg)](https://github.com/daubit/goth/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/daubit/goth)](https://goreportcard.com/report/github.com/daubit/goth)
 
 Package goth provides a simple, clean, and idiomatic way to write authentication
 packages for Go web applications.
@@ -11,72 +11,72 @@ This package was inspired by [https://github.com/intridea/omniauth](https://gith
 ## Installation
 
 ```text
-$ go get github.com/markbates/goth
+$ go get github.com/daubit/goth
 ```
 
 ## Supported Providers
 
-* Amazon
-* Apple
-* Auth0
-* Azure AD
-* Battle.net
-* Bitbucket
-* Box
-* Cloud Foundry
-* Dailymotion
-* Deezer
-* DigitalOcean
-* Discord
-* Dropbox
-* Eve Online
-* Facebook
-* Fitbit
-* Gitea
-* GitHub
-* Gitlab
-* Google
-* Google+ (deprecated)
-* Heroku
-* InfluxCloud
-* Instagram
-* Intercom
-* Kakao
-* Lastfm
-* Linkedin
-* LINE
-* Mailru
-* Meetup
-* MicrosoftOnline
-* Naver
-* Nextcloud
-* Okta
-* OneDrive
-* OpenID Connect (auto discovery)
-* Oura
-* Paypal
-* SalesForce
-* Shopify
-* Slack
-* Soundcloud
-* Spotify
-* Steam
-* Strava
-* Stripe
-* TikTok
-* Tumblr
-* Twitch
-* Twitter
-* Typetalk
-* Uber
-* VK
-* Wepay
-* WeCom
-* Xero
-* Yahoo
-* Yammer
-* Yandex
-* Zoom
+- Amazon
+- Apple
+- Auth0
+- Azure AD
+- Battle.net
+- Bitbucket
+- Box
+- Cloud Foundry
+- Dailymotion
+- Deezer
+- DigitalOcean
+- Discord
+- Dropbox
+- Eve Online
+- Facebook
+- Fitbit
+- Gitea
+- GitHub
+- Gitlab
+- Google
+- Google+ (deprecated)
+- Heroku
+- InfluxCloud
+- Instagram
+- Intercom
+- Kakao
+- Lastfm
+- Linkedin
+- LINE
+- Mailru
+- Meetup
+- MicrosoftOnline
+- Naver
+- Nextcloud
+- Okta
+- OneDrive
+- OpenID Connect (auto discovery)
+- Oura
+- Paypal
+- SalesForce
+- Shopify
+- Slack
+- Soundcloud
+- Spotify
+- Steam
+- Strava
+- Stripe
+- TikTok
+- Tumblr
+- Twitch
+- Twitter
+- Typetalk
+- Uber
+- VK
+- Wepay
+- WeCom
+- Xero
+- Yahoo
+- Yammer
+- Yandex
+- Zoom
 
 ## Examples
 
@@ -88,10 +88,13 @@ To run the example either clone the source from GitHub
 ```text
 $ git clone git@github.com:markbates/goth.git
 ```
+
 or use
+
 ```text
-$ go get github.com/markbates/goth
+$ go get github.com/daubit/goth
 ```
+
 ```text
 $ cd goth/examples
 $ go get -v

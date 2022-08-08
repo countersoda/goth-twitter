@@ -8,11 +8,11 @@ import (
 	"os"
 	"sort"
 
+	"github.com/daubit/goth"
+	"github.com/daubit/goth/gothic"
+	"github.com/daubit/goth/providers/twitterv2"
 	"github.com/gorilla/pat"
 	"github.com/joho/godotenv"
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/gothic"
-	"github.com/markbates/goth/providers/twitterv2"
 )
 
 type ProviderIndex struct {
